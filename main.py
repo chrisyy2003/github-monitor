@@ -21,7 +21,7 @@ def work():
         new_discussion(new_notice['id'], new_notice['title'], new_notice['url'])
         # send_mail(MAIL_TOKEN, content)
     else:
-        # logger.debug(f'{owner}/{name} 暂无更新')
+        logger.debug(f'{owner}/{name} 暂无更新')
         pass
     
 
